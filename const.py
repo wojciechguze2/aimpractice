@@ -24,6 +24,7 @@ LIFE_EMPTY_IMAGE_PATH = './images/life_empty.png'
 
 # fonts
 monospace_14 = ['monospace', 14]
+monospace_25 = ['monospace', 25]
 
 # time
 TIME_UNIT = 1
@@ -35,3 +36,14 @@ DIFFICULTY_SCALE = 100
 POINTS_TEXT_X = WINDOW_WIDTH - 100
 POINTS_TEXT_Y = 20
 
+# lives
+LIFE_WIDTH = 10
+LIFE_POSITION_Y = 0
+LIVES_COUNT_INIT = 100
+
+# input level
+INPUT_LEVEL_LABEL_X = WINDOW_WIDTH // 2 // 1.25
+INPUT_LEVEL_LABEL_Y = 150
+
+INPUT_LEVEL_TEXT_X = WINDOW_WIDTH // 2
+INPUT_LEVEL_TEXT_Y = WINDOW_HEIGHT // 2 - 30
